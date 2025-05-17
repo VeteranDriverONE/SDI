@@ -1,7 +1,7 @@
 # SDI
 A method for predicting whether the co-assembly of acoustic sensitizers and chemotherapy drugs is nanoparticles. 
 
-This is the source code of the paper titled "Construction of Sonosensitizer-drug Co-assembly Based on Deep Learning Method". The main.py serves as the entry point for training, the test_new.py is the entry point for testing, and the test_vis_att.py is used to visualize the attention of the model on the nodes.
+This is the source code of the paper titled "***Construction of Sonosensitizer-drug Co-assembly Based on Deep Learning Method***". The main.py serves as the entry point for training, the test_new.py is the entry point for testing, and the test_vis_att.py is used to visualize the attention of the model on the nodes.
 
 # Data Format
 
@@ -10,10 +10,10 @@ In our model, two types of files need to be set as inputs:
 2. Dataset: It is used to list the paired sonosensitizers and chemotherapy drugs, as well as the labels of these pairs.
 
 Dictionary of Sonosensitizers or Chemotherapy:
-It is a CSV file, as shown in dataset/selected_drugs_smiles-sample.csv. Each row represents a molecule, and there are three columns in total, namely NAME (the name of the drug molecule), SMILES (the SMILES code of the drug molecule), and SIZE (the measured average particle size of the molecular).
+It is a CSV file, as shown in *dataset/selected_drugs_smiles-sample.csv*. Each row represents a molecule, and there are three columns in total, namely NAME (the name of the drug molecule), SMILES (the SMILES code of the drug molecule), and SIZE (the measured average particle size of the molecular).
 
 Training dataset, validation dataset, or test dataset:
-It is a CSV file with four columns: sonosensitizer, drug, size, and classes, as shown in dataset/traindata31-sample.csv. They represent the name of the sonosensitizer, the name of the chemotherapy drug, the size after co - assembly, and the class respectively. The class has two categories, indicating whether it is a nanoparticle or not. Note: The names of sonosensitizers and chemotherapy drugs should be consistent with those in the molecular dictionary.
+It is a CSV file with four columns: sonosensitizer, drug, size, and classes, as shown in *dataset/traindata31-sample.csv*. They represent the name of the sonosensitizer, the name of the chemotherapy drug, the size after co - assembly, and the class respectively. The class has two categories, indicating whether it is a nanoparticle or not. Note: The names of sonosensitizers and chemotherapy drugs should be consistent with those in the molecular dictionary.
 
 
 # Citation Information
@@ -26,4 +26,13 @@ Keywords: drug co-assembly; particle size prediction; graph neural network; deep
 
 ![image](TOC.png)
 
-Cite this paper: Kanqi Wang, Liuyin Yang, Xiaowei Lu, Mingtao Cheng, Xiran Gui, Qingmin Chen, Ylin Wang, Yang Zhao, Dong Li, Gang Liu,  Construction of Sonosensitizer-drug Co-assembly Based on Deep Learning Method, Small, 2025, DOI:10.1002/smll.202502328
+Cite this paper:
+```
+@article{https://doi.org/10.1002/smll.202502328,
+author = {Wang, Kanqi and Yang, Liuyin and Lu, Xiaowei and Cheng, Mingtao and Gui, Xiran and Chen, Qingmin and Wang, Yilin and Zhao, Yang and Li, Dong and Liu, Gang},
+title = {Construction of Sonosensitizer-Drug Co-Assembly Based on Deep Learning Method},
+journal = {Small},
+volume = {n/a},
+number = {n/a},
+pages = {2502328},
+```
