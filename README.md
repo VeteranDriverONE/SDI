@@ -33,18 +33,15 @@ It is a CSV file with four columns: sonosensitizer, drug, size, and classes, as 
 
 
 # Citation Information
-**Title: 
-Construction of Sonosensitizer‐Drug Co‐Assembly Based on Deep Learning Method (https://onlinelibrary.wiley.com/doi/10.1002/smll.202502328)
+**Title**: Construction of Sonosensitizer‐Drug Co‐Assembly Based on Deep Learning Method (https://onlinelibrary.wiley.com/doi/10.1002/smll.202502328)
 
-**Abstract: 
-Drug co-assemblies have attracted extensive attention due to their advantages of easy preparation, adjustable performance and drug component co-delivery. However, the lack of a clear and reasonable co-assembly strategy has hindered the wide application and promotion of drug-co assembly. This paper introduces a deep learning-based sonosensitizer-drug interaction (SDI) model to predict the particle size of the drug mixture. To analyze the factors influencing the particle size after mixing, the graph neural network was employed to capture the atomic, bond, and structural features of the molecules. A multi-scale cross-attention mechanism is designed to integrate the feature representations of different scale substructures of the two drugs, which not only improves prediction accuracy but also allows for the analysis of the impact of molecular structures on the predictions. Finally, ablation experiments are conducted to assess the influence of various molecular properties on prediction accuracy. The proposed method is compared against both machine learning and deep learning approaches. The experimental results demonstrate that the SDI model achieves a precision of 90.00%, a recall rate of 96.00%, and an F1-score of 91.67%, surpassing the performance of the comparative machine learning and deep learning methods. Furthermore, the SDI predicts the co-assembly of the chemotherapy drug methotrexate (MET) and the sonosensitizer emodin (EMO) to form the nanomedicine NanoME. This prediction is further validated through experiments, demonstrating that NanoME can be used for fluorescence imaging of liver cancer and sonodynamic/chemotherapy anticancer therapy.
+**Abstract**: Drug co-assemblies have attracted extensive attention due to their advantages of easy preparation, adjustable performance and drug component co-delivery. However, the lack of a clear and reasonable co-assembly strategy has hindered the wide application and promotion of drug-co assembly. This paper introduces a deep learning-based sonosensitizer-drug interaction (SDI) model to predict the particle size of the drug mixture. To analyze the factors influencing the particle size after mixing, the graph neural network was employed to capture the atomic, bond, and structural features of the molecules. A multi-scale cross-attention mechanism is designed to integrate the feature representations of different scale substructures of the two drugs, which not only improves prediction accuracy but also allows for the analysis of the impact of molecular structures on the predictions. Finally, ablation experiments are conducted to assess the influence of various molecular properties on prediction accuracy. The proposed method is compared against both machine learning and deep learning approaches. The experimental results demonstrate that the SDI model achieves a precision of 90.00%, a recall rate of 96.00%, and an F1-score of 91.67%, surpassing the performance of the comparative machine learning and deep learning methods. Furthermore, the SDI predicts the co-assembly of the chemotherapy drug methotrexate (MET) and the sonosensitizer emodin (EMO) to form the nanomedicine NanoME. This prediction is further validated through experiments, demonstrating that NanoME can be used for fluorescence imaging of liver cancer and sonodynamic/chemotherapy anticancer therapy.
 
-**Keywords: 
-drug co-assembly; particle size prediction; graph neural network; deep learning; theranostics
+**Keywords**: drug co-assembly; particle size prediction; graph neural network; deep learning; theranostics
 
 ![image](TOC.png)
 
-**Cite this paper:
+**Cite this paper**:
 ```
 @article{https://doi.org/10.1002/smll.202502328,
 author = {Wang, Kanqi and Yang, Liuyin and Lu, Xiaowei and Cheng, Mingtao and Gui, Xiran and Chen, Qingmin and Wang, Yilin and Zhao, Yang and Li, Dong and Liu, Gang},
